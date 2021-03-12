@@ -1,4 +1,5 @@
 import nltk
+# nltk.download()
 from nltk.stem.lancaster import LancasterStemmer
 
 stemmer = LancasterStemmer()
@@ -119,8 +120,7 @@ def bag_of_words(s, words):
     return np.array(bag).reshape(1,len(bag))
 def chat(inp):
     if TextBlob(inp).detect_language() != 'en':
-        txt = 'sorry cant get it, why not try typing some english'
-        return txt
+        return 'sorry cant get it, why not try typing some english'
     else:
         a = bag_of_words(s = inp, words = words)
         results = np.argmax(model.predict(a), axis=-1)
@@ -131,14 +131,5 @@ def chat(inp):
 
         return random.choice(responses)
 
-inp = 'love you'
+inp = '电话书'
 print(chat(inp))
-
-
-
-
-
-
-
-
-
