@@ -166,8 +166,8 @@ print(auto_chat('机器人'))
 account_sid = 'AC2bf19ed6a70a92464b7f58ae6ce1b529'
 auth_token = '1d346113079729023118d77a72b58ca7'
 client = Client(account_sid, auth_token)
-laoma = '+601169628148'
-laode = '+4917634476618'
+laoma = ''
+laode = ''
 call = False
 while call:
     now = datetime.now()
@@ -267,9 +267,9 @@ while status:
 #login
 driver.find_element_by_xpath("//*[@id='ssr-app']/div/div[1]/div[3]").click()
 username = driver.find_element_by_xpath("//*[@id='j-portal']/div/div/div[2]/div/div[1]/div/div[1]/div/div/div[2]/div/input")
-username.send_keys("18615102720")
+username.send_keys("")
 password = driver.find_element_by_xpath("//*[@id='j-portal']/div/div/div[2]/div/div[1]/div/div[2]/div/div/input")
-password.send_keys("ironman691101")
+password.send_keys("")
 checkbox = driver.find_element_by_xpath("//*[@id='j-portal']/div/div/div[2]/div/div[1]/div/p/label/span").click()
 Login_Button = driver.find_element_by_xpath("//*[@id='j-portal']/div/div/div[2]/div/div[1]/div/div[4]/a").click()
 time.sleep(15)
