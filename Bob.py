@@ -33,6 +33,8 @@ web_path = 'https://look.163.com/live?id=270803279'
 # https://look.163.com/live?id=73355245
 # https://look.163.com/live?id=52446485
 # https://look.163.com/live?id=270803279
+# Maymaymay-_
+# https://look.163.com/live?id=43733933&position=37
 
 ########################################################################################
 ###CHATBOT###
