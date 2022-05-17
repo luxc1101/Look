@@ -1,0 +1,407 @@
+{
+   "Account_Login": {
+      "message": "Log in to your account…"
+   },
+   "Account_Logout": {
+      "message": "Log out"
+   },
+   "Account_Profiles": {
+      "message": "Profile"
+   },
+   "AddKindleQuotation": {
+      "message": "Save in Citavi"
+   },
+   "AddKindleReference": {
+      "message": "Save in Citavi"
+   },
+   "AddPDFDocumentAsReference": {
+      "message": "Add PDF document as reference"
+   },
+   "AddPdfAsLocalFile": {
+      "message": "Add as local file to the current Citavi reference"
+   },
+   "AddReferenceAndAddSelection": {
+      "message": "Add reference and add selection"
+   },
+   "AddScreenAsScreenshot": {
+      "message": "Add screen as screenshot"
+   },
+   "AddSelectionAsImageQuotation": {
+      "message": "Add selection as image quotation"
+   },
+   "AddSelectionAsQuotation": {
+      "message": "Add selection as quotation"
+   },
+   "AddToCitaviProjectByArXiv": {
+      "message": "Add to Citavi project by ArXiv ID"
+   },
+   "AddToCitaviProjectByDOI": {
+      "message": "Add to Citavi project by DOI"
+   },
+   "AddToCitaviProjectByISBN": {
+      "message": "Add to Citavi project by ISBN"
+   },
+   "AddToCitaviProjectByPMCID": {
+      "message": "Add to Citavi project by PMC ID"
+   },
+   "AddToCitaviProjectByPMID": {
+      "message": "Add to Citavi project by Pubmed ID"
+   },
+   "AddWebPageAsReference": {
+      "message": "Add webpage as reference"
+   },
+   "AlreadyInProject_AutoShowReference": {
+      "message": "Show reference in Citavi directly and skip this message in the future."
+   },
+   "AlreadyInProject_DOI": {
+      "message": "A journal article with the same DOI name is already in the current project."
+   },
+   "AlreadyInProject_ISBN": {
+      "message": "A book with the same ISBN is already in the current project."
+   },
+   "AlreadyInProject_PMID": {
+      "message": "A journal article with the same Pubmed ID is already in the current project."
+   },
+   "AsAbstract": {
+      "message": "…as abstract"
+   },
+   "AsCoverArt": {
+      "message": "…as cover art"
+   },
+   "AsImageQuotation": {
+      "message": "…as image quotation"
+   },
+   "AsKeyword": {
+      "message": "…as keyword"
+   },
+   "AsQuotation": {
+      "message": "…as quotation"
+   },
+   "AsTableOfContents": {
+      "message": "…as table of contents"
+   },
+   "BibliographyReferencesProgressText": {
+      "message": "Searching for references…"
+   },
+   "BibliographyReferencesTitle": {
+      "message": "References cited"
+   },
+   "Cancel": {
+      "message": "Cancel"
+   },
+   "CitaviFoundReferencesToImportDirectly": {
+      "message": "Citavi found {0} references to import."
+   },
+   "CitaviNotRunning": {
+      "message": "Citavi Picker has determined that Citavi is not running.\r\nPlease start Citavi and then repeat the command you just used."
+   },
+   "CitaviPickerDescription": {
+      "message": "Citavi Picker for Google Chrome"
+   },
+   "ClickHereToImportTheReferences": {
+      "message": "Click here to import the references."
+   },
+   "CopySelectionAndURLToClipboard": {
+      "message": "Copy selection and URL to Clipboard"
+   },
+   "Deselect_All": {
+      "message": "Cancel selection"
+   },
+   "EZProxyLogin": {
+      "message": "Log in to {0}"
+   },
+   "Error_Text_1": {
+      "message": "Our development team has been automatically informed and will fix the problem as soon as possible."
+   },
+   "Error_Text_2": {
+      "message": "Help us find the error?"
+   },
+   "ExistsInProject": {
+      "message": "Already in '{0}'."
+   },
+   "ImportButton": {
+      "message": "Import"
+   },
+   "ImportKindleReference": {
+      "message": "Importing reference(s) to {0}…"
+   },
+   "ImportLocalFilesNotSupported": {
+      "message": "The Citavi Picker can't import local files."
+   },
+   "ImportTitleLabel": {
+      "message": "Select the references you want to import:"
+   },
+   "ImportWithoutPdfs": {
+      "message": "Import references without PDFs"
+   },
+   "JSTORLoginInfo": {
+      "message": "Log in to JSTOR to import references along with their PDFs."
+   },
+   "NewsPaperHtmlToPdf": {
+      "message": "Also save as PDF"
+   },
+   "NoProjectOpen": {
+      "message": "No Citavi project is currently open."
+   },
+   "NoResultsWereFoundForTheseCriteria": {
+      "message": "No results were found for these criteria."
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "OptionsDialogHunterCheckbox": {
+      "message": "Enable Citavi Hunter"
+   },
+   "OptionsDialogHunterInfo": {
+      "message": "The Citavi Hunter helps the Picker detect references that can be imported from certain online databases (PubMed, Google Scholar, ArXiv.org). When search results are found, click the blue bar at the bottom of the page to add the references to your Citavi project."
+   },
+   "OptionsDialogHunterTitle": {
+      "message": "Automatically detect search results on webpages."
+   },
+   "OptionsDialogISBNCheckBox": {
+      "message": "Enable identifier detection (ISBN, DOI, PubMed, PMCID, arXiv) and display Picker symbol."
+   },
+   "OptionsDialogISBNInfo": {
+      "message": "Citavi can detect identifiers (ISBN, DOI, PubMed, PMCID, arXiv) on webpages. Click the Picker symbol to send the item to your Citavi project. In Citavi you can select the catalogs that should be used for the ISBN search by clicking Tools > Options > Search."
+   },
+   "OptionsDialogISBNTitle": {
+      "message": "Identifier detection"
+   },
+   "OptionsDialogShowImportMsgboxCheckbox": {
+      "message": "Display notifications"
+   },
+   "OptionsDialogShowImportMsgboxInfo": {
+      "message": "Display a notification when the Picker successfully transfers information to Citavi."
+   },
+   "OptionsDialogShowImportMsgboxTitle": {
+      "message": "Display notifications"
+   },
+   "Or": {
+      "message": "Or"
+   },
+   "Panel_Abstract": {
+      "message": "Abstract"
+   },
+   "Panel_AddPDFDocumentAsReference": {
+      "message": "\u003Cspan class='red'>Add PDF as reference\u003C/span>"
+   },
+   "Panel_AddPdfAsLocalFile_link": {
+      "message": "\u003Ca id='addPdfAsLocalFileBtn'>Add as local file to the current Citavi reference\u003C/a>"
+   },
+   "Panel_AddPdfAsReference_link": {
+      "message": "\u003Ca id='webPageAsNewReferenceBtn'>Add PDF as reference\u003C/a>"
+   },
+   "Panel_AddSelectionAsField": {
+      "message": "Add as…"
+   },
+   "Panel_AddSelectionCurrentReference": {
+      "message": "Add selection to the current reference"
+   },
+   "Panel_AddTextSelection": {
+      "message": "Add selection as…"
+   },
+   "Panel_AddWebPageAsLocation": {
+      "message": "\u003Ca id='webPageAsLocation'>Add URL to the current Citavi reference\u003C/a>"
+   },
+   "Panel_AddWebPageAsReference": {
+      "message": "\u003Cspan class='red'>Add webpage as new reference\u003C/span>"
+   },
+   "Panel_AddWebPageAsReference_link": {
+      "message": "\u003Ca id='webPageAsNewReferenceBtn'>Add webpage as reference\u003C/a>"
+   },
+   "Panel_Back": {
+      "message": "Back"
+   },
+   "Panel_BibliographyImportInfo_Info": {
+      "message": "This can take a moment."
+   },
+   "Panel_BibliographyImportInfo_Title": {
+      "message": "The selected reference cites {0} additional references"
+   },
+   "Panel_BibliographyImport_ImportSelectedReference": {
+      "message": "Only import selected references"
+   },
+   "Panel_BibliographyImport_ImportSelectedReferenceAndCitedReferences": {
+      "message": "Also import all cited references"
+   },
+   "Panel_BibliographyImport_ImportSelectedReferenceAndCitedReferences2": {
+      "message": "Display cited references and then select"
+   },
+   "Panel_Button_Go": {
+      "message": "Go"
+   },
+   "Panel_ChooseAnAction": {
+      "message": "Select an action:"
+   },
+   "Panel_ChooseAnAction_Hunter": {
+      "message": "Select the references you want to import.\u003Cbr/>Then, click Go."
+   },
+   "Panel_CitaviIsNotRunning": {
+      "message": "The picker has detected that no Citavi project is open.\u003Cbr>\u003Cbr>Start Citavi now and open the project you want to add this information to"
+   },
+   "Panel_CitaviWebLogin": {
+      "message": "Citavi Web"
+   },
+   "Panel_CopySelectionAndURLToClipboard_1": {
+      "message": "Selection and URL"
+   },
+   "Panel_CopySelectionAndURLToClipboard_2": {
+      "message": "Copy to the Clipboard"
+   },
+   "Panel_Error": {
+      "message": "An error occurred"
+   },
+   "Panel_Help": {
+      "message": "Help"
+   },
+   "Panel_Hunter_SelectAll": {
+      "message": "All references"
+   },
+   "Panel_ImportHunterReferences": {
+      "message": "Add"
+   },
+   "Panel_Keywords": {
+      "message": "Keywords"
+   },
+   "Panel_More": {
+      "message": "More info"
+   },
+   "Panel_ProjectSelection": {
+      "message": "Select the project for the import:"
+   },
+   "Panel_QuickHelp": {
+      "message": "Hint"
+   },
+   "Panel_Settings": {
+      "message": "Settings"
+   },
+   "Panel_Settings_AlreadyInProject_AutoShowReference_Text": {
+      "message": "If an article with the same DOI is already in the project, the reference will be automatically shown when the Picker symbol is clicked."
+   },
+   "Panel_Settings_AlreadyInProject_AutoShowReference_Title": {
+      "message": "Go to reference"
+   },
+   "Panel_Settings_BuildType": {
+      "message": "Build:"
+   },
+   "Panel_Settings_EnableTrace_Text": {
+      "message": "Only enable this option if you are asked to do so by the Citavi support team."
+   },
+   "Panel_Settings_Hunter_Text": {
+      "message": "The Citavi Hunter helps the Picker detect references that can be imported from certain online databases."
+   },
+   "Panel_Settings_ImportPdf_Text": {
+      "message": "Citavi will save the PDFs it can find in your project."
+   },
+   "Panel_Settings_ImportPdf_Title": {
+      "message": "Download PDF files automatically​"
+   },
+   "Panel_Settings_LookupBibliography_Text": {
+      "message": "When this option is selected, any cited references that are found can be imported along with the original item."
+   },
+   "Panel_Settings_LookupBibliography_Title": {
+      "message": "Import cited references"
+   },
+   "Panel_Settings_MsgBox_Text": {
+      "message": "Display a notification when the Picker successfully transfers information to Citavi."
+   },
+   "Panel_Settings_ReferenceIdentifier_Text": {
+      "message": "Citavi can detect identifiers (ISBN, DOI, PubMed, PMCID, arXiv) on webpages. Click the Picker symbol to import the item into Citavi."
+   },
+   "Panel_Settings_ReferenceIdentifier_Title": {
+      "message": "Identifier detection"
+   },
+   "Panel_Settings_Settings_EnableTrace": {
+      "message": "Create activity log"
+   },
+   "Panel_TextQuotation": {
+      "message": "Quotation"
+   },
+   "Panel_ToC": {
+      "message": "Table of contents"
+   },
+   "Panel_Warning": {
+      "message": "Warning"
+   },
+   "ProjectSelection": {
+      "message": "Project:"
+   },
+   "ProjectSelection_Desktop": {
+      "message": "Citavi for Windows"
+   },
+   "ProjectSelection_Web": {
+      "message": "Citavi Web"
+   },
+   "ProxyBtnCancel": {
+      "message": "[EN]Abbrechen"
+   },
+   "ProxyCheck": {
+      "message": "[EN]Diese Meldung zukünftig überspringen und ohne Anmeldung fortfahren"
+   },
+   "ProxyInfo": {
+      "message": "[EN]Melden Sie sich an bei: {0}\u003Cbr>So kann der Citavi Picker für Sie auch die von ihrer Hochschule oder Organisation lizensierten Volltexte herunterladen."
+   },
+   "ReferenceDataSentToCitavi": {
+      "message": "Your references are on their way to Citavi."
+   },
+   "ReferenceSentToCitavi": {
+      "message": "Your references are on their way to Citavi."
+   },
+   "ReferenceSentToCitavi_Plural": {
+      "message": "Your references are on their way to Citavi."
+   },
+   "RunCitavi": {
+      "message": "Run Citavi"
+   },
+   "Select_All": {
+      "message": "Select all"
+   },
+   "Settings": {
+      "message": "Settings…"
+   },
+   "ShowKindleQuotation": {
+      "message": "Show in Citavi"
+   },
+   "ShowKindleReference": {
+      "message": "Show in Citavi"
+   },
+   "ShowReference": {
+      "message": "Show reference"
+   },
+   "TakeScreenshot": {
+      "message": "Take a screenshot…"
+   },
+   "TargetProject": {
+      "message": "Target project: "
+   },
+   "TargetProject_Desktop": {
+      "message": "Current desktop project"
+   },
+   "TextSelectionClipboardSuccess": {
+      "message": "Copied to Clipboard"
+   },
+   "Trace_Comment": {
+      "message": "Comment"
+   },
+   "Trace_Email": {
+      "message": "Email address"
+   },
+   "Trace_Name": {
+      "message": "Your name"
+   },
+   "Trace_Send": {
+      "message": "Stop logging activities and send log"
+   },
+   "Trace_Text_1": {
+      "message": "Please describe what you were doing before the error occurred."
+   },
+   "Trace_Text_2": {
+      "message": "Thank you for helping us improve Citavi!\u003Cbr/>We appreciate your assistance."
+   },
+   "TryDownloadPdf": {
+      "message": "Searching for PDF…"
+   },
+   "VersionLabel": {
+      "message": "Version: "
+   }
+}

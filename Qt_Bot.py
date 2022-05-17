@@ -25,7 +25,7 @@ from subprocess import call
 import shutil
 import json
 import sys
-sys.setrecursionlimit(1000000)
+sys.setrecursionlimit(100000000)
 # from bs4 import BeautifulSoup as bs
 # import requests
 # import emojis
@@ -379,6 +379,7 @@ class Bob_Form(QMainWindow):
 class receive(QThread):
     rx_signal = pyqtSignal(str)
     position = 2
+    idx = 0
     def __init__(self, parent, driver, owner, bot, fansN, fansable, setupjs):
         super(receive, self).__init__(parent)
         self.is_running  = True
@@ -430,13 +431,21 @@ class receive(QThread):
     # backtracking function
     def solve_recive_helper(self, content, position):
         max_idx = 1e8
-        time.sleep(0.5)
+        time.sleep(0.8)
         receive.position = position
         # Bob_Form.idx = self.position
         # print(receive.position)
         # print(Bob_Form.idx)  
         # txt = self.got_txt(position)
-
+        receive.idx += 1
+        #  print(receive.idx)
+        if receive.idx >1500:
+            self.driver.refresh()
+            receive.idx = 0
+            receive.position = 2
+            time.sleep(10)
+            self.content = {}
+            Bob_Form.send_txt(self, self.setup['Welcome'],1)    
         try:
             txtsys = self.driver.find_element(By.XPATH,"//*[@id='CONTENT_ID']/div/div[2]/div[2]/div/div/div[1]/div[{}]".format(position)).text
             txtsys = re.split(' |\n',txtsys)
@@ -447,13 +456,11 @@ class receive(QThread):
                 pass
             txtsys.insert(0,guest)
             # print(txtsys)
-            txt = ' '.join(txtsys)        
+            txt = ' '.join(txtsys)
+                
         except:
             txt = None
 
-        # print(txt)
-        # print('-----------------')
-        # base case
         if position >= max_idx:
             return None
         if txt is None:
@@ -504,7 +511,7 @@ class receive(QThread):
                     # upgrade
                     if '粉团升' in txt.split(' ')[-1]:
                         Bob_Form.send_txt(self, '{}你又进步了！@{}'.format('⇧', guest), 1)
-
+                    # be member
                     if '加入了粉团' in txt.split(' ')[-1]:
                         Bob_Form.send_txt(self, '这就忍不住了，不是说下次一定吗！@{}'.format(guest), 1)
                     # owner come in
@@ -551,6 +558,7 @@ class receive(QThread):
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     app.setStyle('Fusion')
+    QtWidgets.QApplication.processEvents()
     Form = QtWidgets.QWidget()
     ui = Bob_Form()
     ui.setupUi(Form)

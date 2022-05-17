@@ -1,0 +1,407 @@
+{
+   "Account_Login": {
+      "message": "Effettua il login..."
+   },
+   "Account_Logout": {
+      "message": "Effettua il logout"
+   },
+   "Account_Profile": {
+      "message": "Profilo"
+   },
+   "AddKindleQuotation": {
+      "message": "Salva in Citavi"
+   },
+   "AddKindleReference": {
+      "message": "Salva in Citavi"
+   },
+   "AddPDFDocumentAsReference": {
+      "message": "Inserisci documento PDF come titolo"
+   },
+   "AddPdfAsLocalFile": {
+      "message": "Inserisci come copia locale nel titolo Citavi corrente"
+   },
+   "AddReferenceAndAddSelection": {
+      "message": "Inserisci titolo e salva selezione"
+   },
+   "AddScreenAsScreenshot": {
+      "message": "Inserisci screenshot come copertina"
+   },
+   "AddSelectionAsImageQuotation": {
+      "message": "Inserisci immagine evidenziata come citazione immagine"
+   },
+   "AddSelectionAsQuotation": {
+      "message": "Inserisci testo evidenziato come citazione"
+   },
+   "AddToCitaviProjectByArXiv": {
+      "message": "Importa titolo nel progetto Citavi in base a questo ID ArXiv"
+   },
+   "AddToCitaviProjectByDOI": {
+      "message": "Importa titolo nel progetto Citavi in base a questo DOI"
+   },
+   "AddToCitaviProjectByISBN": {
+      "message": "Importa titolo nel progetto Citavi in base a questo ISBN"
+   },
+   "AddToCitaviProjectByPMCID": {
+      "message": "Importa titolo nel progetto Citavi in base a questo ID PMC"
+   },
+   "AddToCitaviProjectByPMID": {
+      "message": "Importa titolo nel progetto Citavi in base a questo ID Pubmed"
+   },
+   "AddWebPageAsReference": {
+      "message": "Inserisci pagina web come titolo"
+   },
+   "AlreadyInProject_AutoShowReference": {
+      "message": "Saltare questo messaggio in futuro e visualizzare direttamente il titolo in Citavi."
+   },
+   "AlreadyInProject_DOI": {
+      "message": "Nel progetto corrente è già presente un articolo con un nome DOI identico."
+   },
+   "AlreadyInProject_ISBN": {
+      "message": "Nel progetto corrente è già presente un libro con un codice ISBN identico."
+   },
+   "AlreadyInProject_PMID": {
+      "message": "Nel progetto corrente è già presente un articolo con un ID PubMed identico."
+   },
+   "AsAbstract": {
+      "message": "…come abstract"
+   },
+   "AsCoverArt": {
+      "message": "…come copertina"
+   },
+   "AsImageQuotation": {
+      "message": "…come citazione immagine"
+   },
+   "AsKeyword": {
+      "message": "…come parola chiave"
+   },
+   "AsQuotation": {
+      "message": "…come citazione"
+   },
+   "AsTableOfContents": {
+      "message": "…come indice"
+   },
+   "BibliographyReferencesProgressText": {
+      "message": "Ricerca titoli citati in corso…"
+   },
+   "BibliographyReferencesTitle": {
+      "message": "Titoli citati all'interno"
+   },
+   "Cancel": {
+      "message": "Annulla"
+   },
+   "CitaviFoundReferencesToImportDirectly": {
+      "message": "Citavi ha trovato {un titolo|{0} titoli} da importare direttamente."
+   },
+   "CitaviNotRunning": {
+      "message": "Citavi Picker ha rilevato che Citavi non sta funzionando. Dopo aver riavviato Citavi e aperto un progetto ricordarsi di ripetere l'ultimo comando dato in Citavi Picker."
+   },
+   "CitaviPickerDescription": {
+      "message": "Citavi Picker per Google Chrome"
+   },
+   "ClickHereToImportTheReferences": {
+      "message": "Cliccare qui per importare i titoli."
+   },
+   "CopySelectionAndURLToClipboard": {
+      "message": "Selezione e URL negli appunti"
+   },
+   "Deselect_All": {
+      "message": "Rimuovi selezione"
+   },
+   "EZProxyLogin": {
+      "message": "Effettua il login in {0}"
+   },
+   "Error_Text_1": {
+      "message": "Il nostro team di sviluppatori è stato informato in automatico e risolverà l'errore il prima possibile."
+   },
+   "Error_Text_2": {
+      "message": "Vuoi aiutarci a trovare l'errore?"
+   },
+   "ExistsInProject": {
+      "message": "Già presente in '{0}'."
+   },
+   "ImportButton": {
+      "message": "Importa"
+   },
+   "ImportKindleReference": {
+      "message": "Import del titolo in {0} in corso…"
+   },
+   "ImportLocalFilesNotSupported": {
+      "message": "Citavi Picker non può importare file locali."
+   },
+   "ImportTitleLabel": {
+      "message": "Quali titoli si devono importare?"
+   },
+   "ImportWithoutPdfs": {
+      "message": "Importa titolo senza PDF"
+   },
+   "JSTORLoginInfo": {
+      "message": "Per importare i titoli insieme ai PDF devi prima accedere a JSTOR."
+   },
+   "NewsPaperHtmlToPdf": {
+      "message": "genera in aggiunta PDF"
+   },
+   "NoProjectOpen": {
+      "message": "Al momento non ci sono progetti aperti."
+   },
+   "NoResultsWereFoundForTheseCriteria": {
+      "message": "Nessun risultato per questo criterio."
+   },
+   "OK": {
+      "message": "OK"
+   },
+   "OptionsDialogHunterCheckbox": {
+      "message": "Attiva Hunter"
+   },
+   "OptionsDialogHunterInfo": {
+      "message": "In varie banche dati bibliografiche (tra cui PubMed, Scholar, ArXiv.org) è possibile importare rapidamente i risultati della ricerca in un progetto Citavi usando la funzione Hunter. Dopo aver effettuato una ricerca il Picker visualizza a questo scopo una barra blu a piè di pagina. Cliccare sulla barra per importare i risultati visualizzati nel progetto Citavi attualmente aperto."
+   },
+   "OptionsDialogHunterTitle": {
+      "message": "Importa risultati di ricerca da banche dati più velocemente"
+   },
+   "OptionsDialogISBNCheckBox": {
+      "message": "Utilizza la ricerca ISBN e DOI; l'icona Citavi sarà visualizzata"
+   },
+   "OptionsDialogISBNInfo": {
+      "message": "Citavi visualizza all'interno di pagine web l'icona Citavi dopo i codici ISBN o i nomi DOI. Cliccare su questa icona perché Citavi ricerchi i riferimenti bibliografici e li salvi nel progetto Citavi attualmente aperto. Scegliere i cataloghi per la ricerca nel menu Citavi: Strumenti > Opzioni > Ricerca."
+   },
+   "OptionsDialogISBNTitle": {
+      "message": "Riconosci automaticamente numeri ISB e indirizzi DOI"
+   },
+   "OptionsDialogShowImportMsgboxCheckbox": {
+      "message": "Attiva messaggi "
+   },
+   "OptionsDialogShowImportMsgboxInfo": {
+      "message": "Dopo l'invio di dati dal vostro browser al progetto Citavi, il Picker segnala il completamento della trasmissione dei dati."
+   },
+   "OptionsDialogShowImportMsgboxTitle": {
+      "message": "Mostra messaggi"
+   },
+   "Or": {
+      "message": "Oppure"
+   },
+   "Panel_Abstract": {
+      "message": "Abstract"
+   },
+   "Panel_AddPDFDocumentAsReference": {
+      "message": "\u003Cspan class='red'>Aggiungi documento PDF come \u003C/span>titolo"
+   },
+   "Panel_AddPdfAsLocalFile_link": {
+      "message": "\u003Ca id='addPdfAsLocalFileBtn'>Inserisci come copia locale nel titolo Citavi corrente\u003C/a>"
+   },
+   "Panel_AddPdfAsReference_link": {
+      "message": "Aggiungi documento PDF \u003Ca id='webPageAsNewReferenceBtn'>come titolo\u003C/a>"
+   },
+   "Panel_AddSelectionAsField": {
+      "message": "aggiungi come..."
+   },
+   "Panel_AddSelectionCurrentReference": {
+      "message": "Selezione nel titolo corrente"
+   },
+   "Panel_AddTextSelection": {
+      "message": "e aggiungi testo evidenziato come ..."
+   },
+   "Panel_AddWebPageAsLocation": {
+      "message": "Aggiungi al titolo Citavi corrente come \u003Ca id='webPageAsLocation'>indirizzo internet\u003C/a>"
+   },
+   "Panel_AddWebPageAsReference": {
+      "message": "Aggiungi pagina web come nuovo titolo\u003Cspan class='red'>\u003C/span>"
+   },
+   "Panel_AddWebPageAsReference_link": {
+      "message": "\u003Ca id='webPageAsNewReferenceBtn'>Aggiungi pagina web come titolo\u003C/a>"
+   },
+   "Panel_Back": {
+      "message": "Indietro"
+   },
+   "Panel_BibliographyImportInfo_Info": {
+      "message": "La durata dell'operazione può variare a seconda del numero di titoli."
+   },
+   "Panel_BibliographyImportInfo_Title": {
+      "message": "Il titolo selezionato cita {0} ulteriori titoli"
+   },
+   "Panel_BibliographyImport_ImportSelectedReference": {
+      "message": "Importa solo il titolo selezionato"
+   },
+   "Panel_BibliographyImport_ImportSelectedReferenceAndCitedReferences": {
+      "message": "Importa anche tutti i titoli citati"
+   },
+   "Panel_BibliographyImport_ImportSelectedReferenceAndCitedReferences2": {
+      "message": "Prima visualizza e seleziona i titoli citati"
+   },
+   "Panel_Button_Go": {
+      "message": "Vai"
+   },
+   "Panel_ChooseAnAction": {
+      "message": "Scegli un'azione:"
+   },
+   "Panel_ChooseAnAction_Hunter": {
+      "message": "Seleziona i titoli da importare.\u003Cbr/>Fatto? Clicca sotto su AVVIA."
+   },
+   "Panel_CitaviIsNotRunning": {
+      "message": "Il Picker non ha rilevato progetti aperti.\u003Cbr>\u003Cbr>Avvia Citavi e apri il progetto in cui vuoi inserire l'informazione."
+   },
+   "Panel_CitaviWebLogin": {
+      "message": "Login Citavi Web"
+   },
+   "Panel_CopySelectionAndURLToClipboard_1": {
+      "message": "Copia negli appunti"
+   },
+   "Panel_CopySelectionAndURLToClipboard_2": {
+      "message": "testo evidenziato e URL"
+   },
+   "Panel_Error": {
+      "message": "Si è verificato un errore"
+   },
+   "Panel_Help": {
+      "message": "Supporto"
+   },
+   "Panel_Hunter_SelectAll": {
+      "message": "Tutti i titoli"
+   },
+   "Panel_ImportHunterReferences": {
+      "message": "Applica"
+   },
+   "Panel_Keywords": {
+      "message": "Parole chiave"
+   },
+   "Panel_More": {
+      "message": "Maggiori informazioni"
+   },
+   "Panel_ProjectSelection": {
+      "message": "Seleziona un progetto in cui importare i dati:"
+   },
+   "Panel_QuickHelp": {
+      "message": "Un consiglio"
+   },
+   "Panel_Settings": {
+      "message": "Impostazioni"
+   },
+   "Panel_Settings_AlreadyInProject_AutoShowReference_Text": {
+      "message": "Se un articolo con un codice DOI identico è già presente nel progetto corrente, cliccando sull’icona Picker il titolo viene subito visualizzato."
+   },
+   "Panel_Settings_AlreadyInProject_AutoShowReference_Title": {
+      "message": "Vai direttamente al titolo"
+   },
+   "Panel_Settings_BuildType": {
+      "message": "Crea:"
+   },
+   "Panel_Settings_EnableTrace_Text": {
+      "message": "Citavi invia un log diagnostico dettagliato ai server di Swiss Academic Software. Attivare questa opzione solo se richiesto dal nostro supporto. In alcuni casi vengono inviati dati dai quali è possibile risalire al tuo nome, al tuo computer o ai tuoi dati di progetto."
+   },
+   "Panel_Settings_Hunter_Text": {
+      "message": "La funzione Hunter ti consente di importare con facilità i risultati di ricerche in cataloghi bibliotecari e banche dati letterarie."
+   },
+   "Panel_Settings_ImportPdf_Text": {
+      "message": "Citavi salva i testi integrali dei titoli trovati nel tuo progetto."
+   },
+   "Panel_Settings_ImportPdf_Title": {
+      "message": "Scarica in automatico i PDF​"
+   },
+   "Panel_Settings_LookupBibliography_Text": {
+      "message": "È disponibile l'import delle fonti citate in un articolo di rivista."
+   },
+   "Panel_Settings_LookupBibliography_Title": {
+      "message": "Importa titoli citati"
+   },
+   "Panel_Settings_MsgBox_Text": {
+      "message": "Visualizzerai una notifica non appena i dati saranno trasferiti dal browser nel tuo progetto."
+   },
+   "Panel_Settings_ReferenceIdentifier_Text": {
+      "message": "Citavi cerca in base a ISBN, DOI, PubMed-ID, PMC-ID o ArXiV-ID. Per importare in Citavi i dati relativi a un titolo basta un clic."
+   },
+   "Panel_Settings_ReferenceIdentifier_Title": {
+      "message": "Riconosci ID in automatico"
+   },
+   "Panel_Settings_Settings_EnableTrace": {
+      "message": "Attiva traccia"
+   },
+   "Panel_TextQuotation": {
+      "message": "Citazione"
+   },
+   "Panel_ToC": {
+      "message": "Indice"
+   },
+   "Panel_Warning": {
+      "message": "Indicazione"
+   },
+   "ProjectSelection": {
+      "message": "Progetto:"
+   },
+   "ProjectSelection_Desktop": {
+      "message": "Citavi for Windows"
+   },
+   "ProjectSelection_Web": {
+      "message": "Citavi Web"
+   },
+   "ProxyBtnCancel": {
+      "message": "Annulla"
+   },
+   "ProxyCheck": {
+      "message": "Non mostrare questa notifica in futuro e prosegui senza login "
+   },
+   "ProxyInfo": {
+      "message": "Accedi a: {0} In questo modo il Picker di Citavi potrà scaricare anche i testi integrali per i quali la tua università od organizzazione dispone di una licenza."
+   },
+   "ReferenceDataSentToCitavi": {
+      "message": "Invio dati del titolo a Citavi in corso"
+   },
+   "ReferenceSentToCitavi": {
+      "message": "Invio dei titoli a Citavi in corso"
+   },
+   "ReferenceSentToCitavi_Plural": {
+      "message": "Invio dei titoli a Citavi in corso"
+   },
+   "RunCitavi": {
+      "message": "Avviare Citavi"
+   },
+   "Select_All": {
+      "message": "Scegli tutto"
+   },
+   "Settings": {
+      "message": "Impostazioni"
+   },
+   "ShowKindleQuotation": {
+      "message": "Mostra in Citavi"
+   },
+   "ShowKindleReference": {
+      "message": "Mostra in Citavi"
+   },
+   "ShowReference": {
+      "message": "Mostra titolo"
+   },
+   "TakeScreenshot": {
+      "message": "Scatta screenshot…"
+   },
+   "TargetProject": {
+      "message": "Progetto di destinazione: "
+   },
+   "TargetProject_Desktop": {
+      "message": "Progetto corrente Citavi Windows"
+   },
+   "TextSelectionClipboardSuccess": {
+      "message": "copiato!"
+   },
+   "Trace_Comment": {
+      "message": "Commento"
+   },
+   "Trace_Email": {
+      "message": "Indirizzo e-mail"
+   },
+   "Trace_Name": {
+      "message": "Il tuo nome"
+   },
+   "Trace_Send": {
+      "message": "Invia"
+   },
+   "Trace_Text_1": {
+      "message": "Descrivi brevemente che cosa hai fatto prima che si verificasse l'errore."
+   },
+   "Trace_Text_2": {
+      "message": "Grazie!\u003Cbr/>In questo modo ci aiuti a migliorare Citavi. Te ne siamo grati."
+   },
+   "TryDownloadPdf": {
+      "message": "Cerca PDF…"
+   },
+   "VersionLabel": {
+      "message": "Versione: "
+   }
+}

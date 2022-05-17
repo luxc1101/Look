@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 go to the root folder of .ui datei, then in path window typing cmd
 pyuic5 -x test.ui -o tutorial5.py
 pyuic5 -x Qt_Bot.ui -o Qt_Bot.py
@@ -7,12 +6,3 @@ pyuic5 -x VectorOnline.ui -o sub_tutorial5.py
 pyuic5 -x layout.ui -o layout.py
 git log --all --decorate --oneline --graph
 pyinstaller --onefile --windowed --icon=99.ico .\Qt_Bot.py 
-=======
-go to the root folder of .ui datei, then in path window typing cmd
-pyuic5 -x test.ui -o tutorial5.py
-pyuic5 -x Qt_Bot.ui -o Qt_Bot.py
-pyuic5 -x Qt_Bot.ui -o Qt_Bot_dev.py
-pyuic5 -x VectorOnline.ui -o sub_tutorial5.py
-pyuic5 -x layout.ui -o layout.py
-git log --all --decorate --oneline --graph
->>>>>>> 3995ef4cda06046a2f3ee6a4a73e1a051d1d3049

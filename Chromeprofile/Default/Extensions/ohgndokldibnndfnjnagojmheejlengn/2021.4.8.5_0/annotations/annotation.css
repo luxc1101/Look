@@ -1,0 +1,39 @@
+﻿:root {
+	--color-annotation-summary: #b8ebb8;
+	--color-annotation-comment: #ffd7a3;
+	--color-annotation-directquotation: #b4d2ff;
+	--color-annotation-indirectquotation: #e7b7ff;
+	--color-annotation-quickreference: #d52b1e;
+	--color-annotation-highlight: #d66800;
+}
+
+mark[data-annotation-id] {
+	color: rgb(0, 0, 0) !important;
+	font: inherit;
+	text-shadow: none !important;
+	padding: 0px !important;
+}
+
+mark[data-annotation-type="DirectQuotation"] {
+	background-color: var(--color-annotation-directquotation) !important;
+}
+
+mark[data-annotation-type="IndirectQuotation"] {
+	background-color: var(--color-annotation-indirectquotation) !important;
+}
+
+mark[data-annotation-type="Summary"] {
+	background-color: var(--color-annotation-summary) !important;
+}
+
+mark[data-annotation-type="Comment"] {
+	background-color: var(--color-annotation-comment) !important;
+}
+
+mark[data-annotation-type="QuickReference"] {
+	background-color: var(--color-annotation-quickreference) !important;
+}
+
+mark[data-annotation-type="Highlight"] {
+	background-color: var(--color-annotation-highlight) !important;
+}

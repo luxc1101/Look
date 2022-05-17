@@ -1,0 +1,37 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "images/CitaviProgramIcon16.png",
+         "24": "images/CitaviProgramIcon24.png",
+         "32": "images/CitaviProgramIcon32.png",
+         "48": "images/CitaviProgramIcon48.png"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "annotations/annotation.css" ],
+      "js": [ "shared.js", "analyser.js", "annotations/annotationMarker.js", "iframe/helper.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_CitaviPickerDescription__",
+   "homepage_url": "http://www.citavi.com",
+   "icons": {
+      "16": "images/CitaviProgramIcon16.png",
+      "24": "images/CitaviProgramIcon24.png",
+      "32": "images/CitaviProgramIcon32.png",
+      "48": "images/CitaviProgramIcon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6hZz7lcASmfJcGJQ3x/ZYvKCCKLpkBkx9IVqjsmTDvE+MjXh6Kp3+giPAIFZGfGycQ7DSD7x8PtecKDvsSB+xY7P6CdN3kEDernWIfuh8GEpPo0Q1CZ2Sj2mrb+ftvdIrhXygLU+PPCVimtDgBRNbKLzopARxKzqta1MtSEOYqn35kyWFFGN1FPRG26izgBlM9dO3ud39F5ZUcpOt6Wt6vosoiHGwefaHjWqI21b59MebjGE8vwKvWmHUSMoyFgYRB1o+iTZF9bbYM0X885QP7e5GZrbee5R+M6waQteDRSvSDyqegXye+wf3nUNo7rMArA6GY4sajUAHqeKD+2AHwIDAQAB",
+   "manifest_version": 2,
+   "name": "Citavi Picker",
+   "optional_permissions": [ "\u003Call_urls>" ],
+   "permissions": [ "activeTab", "storage", "nativeMessaging", "identity", "tabs", "clipboardWrite", "contextMenus", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2021.4.08.05",
+   "web_accessible_resources": [ "shared.js", "ai/telemetry.js", "iframe/iframe.js", "iframe/iframe.css", "iframe/iframe.html", "iframe/pdfEvents.js", "web/_sr.html", "web/_sr.js", "images/okay_o.svg", "images/cancel_o.svg" ]
+}
